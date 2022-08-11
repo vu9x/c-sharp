@@ -35,7 +35,7 @@ int[] inputarray(int Length)
 int findSum(int[] array)
 {
     int sum = 0;
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < 3; i++)
     {
         sum = sum + array[i];
     }
