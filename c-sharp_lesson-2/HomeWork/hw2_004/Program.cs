@@ -9,13 +9,18 @@ int Prompt(string message)
     return result;
 }
 
-int dayOfWeek = Prompt("Введите номер дня недели от 1 до 7: ");
+void week(int day)
+{
+    if (day > 5)
+    {
+        Console.WriteLine("Выходной");
+    }
+    else
+    {
+        Console.WriteLine("Будни");
+    }
+}
 
-if (dayOfWeek > 5)
-{
-    Console.WriteLine("Выходной");
-}
-else
-{
-    Console.WriteLine("Будни");
-}
+int dayOfWeek = Prompt("Введите номер дня недели от 1 до 7: ");
+week(dayOfWeek);
+
