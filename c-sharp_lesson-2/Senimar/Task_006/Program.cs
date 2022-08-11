@@ -25,7 +25,6 @@ int[] inputarray(int Length)
     return array;
 }
 
-int[] array = inputarray(3);
 
 // int sum = 0;
 // for (int i = 0; i < array.Length; i++)
@@ -43,6 +42,8 @@ int findSum(int[] array)
     return sum;
 }
 
+
+int[] array = inputarray(3);
 int newSum = findSum(array);
 
 double average = newSum / ((double)array.Length);
